@@ -38,6 +38,10 @@ OCR은 글자 검출 (text detection), 글자 인식 (text recognition), 정렬�
 
 
 ## 리더보드 
+- Public: 0.9327	0.8657	0.8980
+- Private: 0.9187	0.8434	0.8795
+
+ 위의 점수는 순서대로 precision, recall, f1 score을 의미합니다.
 ## Dataset
 
 - train: 태국어, 베트남어, 일본어, 중국어 영수증 데이터 각 100장씩, 총 400장의 이미지
