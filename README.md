@@ -68,4 +68,35 @@ FOLD별로 다양한 Size, 다양한 Crop을 적용하여 훈련
 앙상블설명
 
 
+![original_image](https://github.com/user-attachments/assets/0d74a046-dd83-439d-8940-6a0ac3ef1adf)
+![2_3_crop_row1_col1](https://github.com/user-attachments/assets/193527de-e44d-481c-9e88-dd432e7a1c52)
+![2_3_crop_row1_col2](https://github.com/user-attachments/assets/bcc699ef-95e6-476b-8893-7cee0b753eec)
+![2_3_crop_row2_col1](https://github.com/user-attachments/assets/b3e79bd6-7971-4684-8908-4d3afa2f5170)
+![2_3_crop_row2_col2](https://github.com/user-attachments/assets/15cbbe73-b8c2-4055-aa29-86c94cbfa9a6)
+크롭앙상블 설명
 
+
+![X51006008073](https://github.com/user-attachments/assets/3687e95f-6b17-413e-8f4b-77b401e5406d)
+원본 Train 데이터
+
+![aug_X51006008073](https://github.com/user-attachments/assets/e19de2fa-7fd8-4ac3-981f-984971e4e462)
+aug적용 데이터
+
+![cord2_test_image_17](https://github.com/user-attachments/assets/a0be4b86-18d3-4cdb-9297-a3b043c0a9e3)
+cord2 안쓴 이유
+
+![X51005447840](https://github.com/user-attachments/assets/ba7ea5ab-ecfa-4a86-84f7-db160bb12edc)
+SROIE2019 데이터 Plot
+
+![extractor zh in_house appen_000314_page0001](https://github.com/user-attachments/assets/47f73f9a-78f7-4597-8119-ff342c756395)
+클리닝 전
+
+![extractor zh in_house appen_000314_page0001_Clean](https://github.com/user-attachments/assets/8c48de2d-f036-42ae-8ace-a6384a6f08ad)
+클리닝 후
+
+![japan000215_resultPlot](https://github.com/user-attachments/assets/0d51e3bf-f30e-493c-b84f-fb885f364ebe)
+앙상블 전 결과 이미지 Plot
+
+
+![japan000215_esemble_resultPlot](https://github.com/user-attachments/assets/9593a91b-f08b-4bf2-9db0-b872974d0b28)
+앙상블 후 결과 이미지 Plot
