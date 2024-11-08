@@ -128,6 +128,7 @@ SROIE2019 데이터 Plot
 
 
 
+![annotated_extractor th in_house appen_000692_page0001](https://github.com/user-attachments/assets/0a111def-7201-4f88-aaa5-77466ae6db2a)
 
 ![image](https://github.com/user-attachments/assets/27094c18-425e-48ea-85e5-529930b9381d)
 ![image](https://github.com/user-attachments/assets/9db1f5a7-4319-4ee0-838d-e1fbf5bf3795)
