@@ -1,3 +1,8 @@
+#원본 이미지를 추론합니다
+#원본 이미지를 지정한 사이즈만큼 슬라이딩하며 Crop해서 각각 추론합니다.
+#추론 결과를 앙상블합니다.
+
+
 import os
 import os.path as osp
 import json
@@ -134,6 +139,7 @@ def do_inference_with_voting(model, ckpt_fpath, data_dir, input_size, image_size
                         [[(pt[0] + offset_x) * resize_ratio_input_w, (pt[1] + offset_y) * resize_ratio_input_h] for pt in bbox]
                         for bbox in crop_detections
                     ]
+                    #Crop이미지에서 가장자리에 추론된 박스는 제거한다.
                     transformed_detections = [
                         bbox for bbox in transformed_detections
                         if all(margin < pt[0] < (w - margin) and margin < pt[1] < (h - margin) for pt in bbox)

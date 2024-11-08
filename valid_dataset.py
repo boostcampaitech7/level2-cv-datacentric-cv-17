@@ -1,3 +1,6 @@
+#원본 + augmantation적용이미지 를 훈련시키는 데이터셋
+#validation을 적용한다.
+
 import os.path as osp
 import math
 import json

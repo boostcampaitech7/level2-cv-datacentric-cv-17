@@ -1,3 +1,7 @@
+#원본 + augmantation적용이미지 를 훈련시키는 데이터셋
+#validation을 지정하지 않고, Rotate하지 않고 추론한다.
+
+
 import os.path as osp
 import math
 import json

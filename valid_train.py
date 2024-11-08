@@ -1,3 +1,7 @@
+#원본 + augmantation적용이미지 를 훈련시키는 코드
+#validation을 적용한다.
+
+
 import os
 import os.path as osp
 import time

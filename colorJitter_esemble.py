@@ -1,3 +1,5 @@
+#ColorJitter를 적용한 이미지와 원본 이미지를 각각 추론해 앙상블합니다.
+
 import os
 import os.path as osp
 import json
