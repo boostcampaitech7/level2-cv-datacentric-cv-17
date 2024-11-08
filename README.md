@@ -129,12 +129,12 @@ SROIE2019 데이터 Plot
 
 
 
-
+![image](https://github.com/user-attachments/assets/27094c18-425e-48ea-85e5-529930b9381d)
 ![image](https://github.com/user-attachments/assets/9db1f5a7-4319-4ee0-838d-e1fbf5bf3795)
 Rotate 미적용
 
 
-
+![image](https://github.com/user-attachments/assets/91c3e9f4-adad-4a96-949e-0a55b95358f6)
 ![image](https://github.com/user-attachments/assets/bf281c3b-f7e3-45d1-b752-7ad4981e688a)
 Rotate 적용
 
