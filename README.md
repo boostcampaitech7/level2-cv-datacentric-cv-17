@@ -101,20 +101,28 @@ DetEval 방식으로 모델 성능을 평가합니다.
 
 ## 추가 데이터셋
 1. **CORD**: 사용하지 않음 (블러 처리 및 라벨링 미비)
-    <img src="https://github.com/user-attachments/assets/a0be4b86-18d3-4cdb-9297-a3b043c0a9e3" width="240" />
-2. **SROIE2019**: 영어 영수증 데이터 (총 973장)  
-    <img src="https://github.com/user-attachments/assets/ba7ea5ab-ecfa-4a86-84f7-db160bb12edc" width="240" />
+   
+    <img src="https://github.com/user-attachments/assets/a0be4b86-18d3-4cdb-9297-a3b043c0a9e3" width="480" />
+    
+2.  **SROIE2019**: 영어 영수증 데이터 (총 973장)
+   
+    <img src="https://github.com/user-attachments/assets/ba7ea5ab-ecfa-4a86-84f7-db160bb12edc" width="480" />
 ---
 
 ## 데이터 증강
 증강 기법으로 데이터셋을 2배 확장하여 모델 학습에 활용했습니다.  
 
 ### 증강 전후 비교
-- **원본 데이터**  
-  ![원본 데이터](https://github.com/user-attachments/assets/3687e95f-6b17-413e-8f4b-77b401e5406d)  
-
-- **증강 데이터**  
-  ![증강 데이터](https://github.com/user-attachments/assets/e19de2fa-7fd8-4ac3-981f-984971e4e462)  
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; text-align: center;">
+    <p>**원본 데이터**</p>
+    <img src="https://github.com/user-attachments/assets/3687e95f-6b17-413e-8f4b-77b401e5406d" width="400" />
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <p>**증강 데이터**</p>
+    <img src="https://github.com/user-attachments/assets/e19de2fa-7fd8-4ac3-981f-984971e4e462" width="400" />
+  </div>
+</div>
 
 ### 주요 증강 기법
 - `HueSaturationValue`  
