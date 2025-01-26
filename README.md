@@ -3,6 +3,8 @@
 **학습 데이터 추가와 수정을 통한 Data-Centric 다국어 영수증 속 글자 검출**  
 **Naver Connect & Upstage 대회**
 
+[팀회고](https://docs.google.com/document/d/1T9VZXKkOp-sYH1gB1lIqRTJkqT33w3NKW6h2YbWun9U/edit?usp=sharing)
+
 ---
 
 ## Authors
