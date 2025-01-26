@@ -73,27 +73,29 @@ DetEval 방식으로 모델 성능을 평가합니다.
   2. 글자 표현이 어려운 경우 끊어서 라벨링  
 
 ### 예시
-- **클리닝 전**  
-  ![클리닝 전](https://github.com/user-attachments/assets/47f73f9a-78f7-4597-8119-ff342c756395)  
-
-- **클리닝 후**  
-  ![클리닝 후](https://github.com/user-attachments/assets/c54c130f-1b01-4657-a721-b91ced474200)  
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; text-align: center;">
+    <p>**클리닝 전**</p>
+    <img src="https://github.com/user-attachments/assets/47f73f9a-78f7-4597-8119-ff342c756395" width="400" />
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <p>**클리닝 후**</p>
+    <img src="https://github.com/user-attachments/assets/c54c130f-1b01-4657-a721-b91ced474200" width="400" />
+  </div>
+</div>
 
 ---
 
 ## 크롭 앙상블
 이미지를 슬라이딩 크롭하여 추론 후, 결과를 앙상블합니다.  
 
-1. **원본 이미지 추론**  
-   ![원본 이미지](https://github.com/user-attachments/assets/0d74a046-dd83-439d-8940-6a0ac3ef1adf)  
-
-2. **크롭 이미지 추론**  
-   - ![Crop 1](https://github.com/user-attachments/assets/193527de-e44d-481c-9e88-dd432e7a1c52)  
-   - ![Crop 2](https://github.com/user-attachments/assets/bcc699ef-95e6-476b-8893-7cee0b753eec)  
-   - ![Crop 3](https://github.com/user-attachments/assets/b3e79bd6-7971-4684-8908-4d3afa2f5170)  
-   - ![Crop 4](https://github.com/user-attachments/assets/15cbbe73-b8c2-4055-aa29-86c94cbfa9a6)  
-
-3. **최종 앙상블**: 모든 결과를 합산  
+### 이미지 예시
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/193527de-e44d-481c-9e88-dd432e7a1c52" width="240" />
+  <img src="https://github.com/user-attachments/assets/bcc699ef-95e6-476b-8893-7cee0b753eec" width="240" />
+  <img src="https://github.com/user-attachments/assets/b3e79bd6-7971-4684-8908-4d3afa2f5170" width="240" />
+  <img src="https://github.com/user-attachments/assets/15cbbe73-b8c2-4055-aa29-86c94cbfa9a6" width="240" />
+</div>
 
 ---
 
