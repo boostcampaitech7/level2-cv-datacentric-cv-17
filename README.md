@@ -53,10 +53,24 @@ OCR은 글자 검출 (text detection), 글자 인식 (text recognition), 정렬�
 - GPU : v100
 
 
-## 추가해야 할 내용
+## 데이터 클리닝
 
-데이터 클리닝 작업(무슨작업, 어떤 가이드라인)
-작업사진전 -> 후 비교
+데이터 클리닝 작업
+[CVAT](https://www.cvat.ai/) 을 활용하여 총 400장의 이미지 중 라벨링이 잘못된 286장의 이미지에 대하여 다음과 같은 기준을 통해 라벨링을 다시 진행하였습니다.
+
+글자는 전부 포함하며 점4개를 통해 전체 글자 형태에 맞게 라벨링을 진행하였다.
+점4개로 표현되지 않는 글자들은 끊어서 라벨링을 진행하였다.
+
+![extractor zh in_house appen_000314_page0001](https://github.com/user-attachments/assets/47f73f9a-78f7-4597-8119-ff342c756395)
+
+클리닝 전
+
+
+
+![extractor zh in_house appen_000314_page0001](https://github.com/user-attachments/assets/c54c130f-1b01-4657-a721-b91ced474200)
+
+클리닝 후
+
 
 추가 데이터셋 확보
 CORD, SROIE2019
