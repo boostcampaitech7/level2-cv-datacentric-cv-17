@@ -100,10 +100,10 @@ DetEval 방식으로 모델 성능을 평가합니다.
 ---
 
 ## 추가 데이터셋
-1. **CORD**: 사용하지 않음 (블러 처리 및 라벨링 미비)  
+1. **CORD**: 사용하지 않음 (블러 처리 및 라벨링 미비)
+    <img src="https://github.com/user-attachments/assets/a0be4b86-18d3-4cdb-9297-a3b043c0a9e3" width="240" />
 2. **SROIE2019**: 영어 영수증 데이터 (총 973장)  
-   - ![SROIE2019 예시](https://github.com/user-attachments/assets/ba7ea5ab-ecfa-4a86-84f7-db160bb12edc)  
-
+    <img src="https://github.com/user-attachments/assets/ba7ea5ab-ecfa-4a86-84f7-db160bb12edc" width="240" />
 ---
 
 ## 데이터 증강
